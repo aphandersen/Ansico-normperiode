@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="windowTitle">
+   <string>Ansico Normperiode 0.2</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>501</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Hvor mange uger er der i din afdelings normperiode?</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="inputNormperiode">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>50</y>
+      <width>113</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>90</y>
+      <width>401</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Hvor mange feriedage har du haft i denne normperiode?</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="inputFeriedage">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>120</y>
+      <width>113</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttonBeregn">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>160</y>
+      <width>89</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Beregn</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>426</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFiler">
+    <property name="title">
+     <string>Filer</string>
+    </property>
+    <addaction name="actionAfslut"/>
+   </widget>
+   <widget class="QMenu" name="menuHj_lp">
+    <property name="title">
+     <string>Hjælp</string>
+    </property>
+    <addaction name="actionOm_Normperiode"/>
+   </widget>
+   <addaction name="menuFiler"/>
+   <addaction name="menuHj_lp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionAfslut">
+   <property name="text">
+    <string>Afslut</string>
+   </property>
+  </action>
+  <action name="actionOm_Normperiode">
+   <property name="text">
+    <string>Om Normperiode</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
