@@ -12,5 +12,7 @@ GPLv3 licens.
 
 # Version
 
-Version 0.1 blev frigivet den 29. juli 2020 
-af Andreas Andersen, Ansico.
+* 0.1 (29/7-2020): Første version med python3 script.
+* 0.2 (9/8-2020): Anden GUI version med PyQt5. Skal stadig køres fra terminalen. 
+
+Af Andreas Andersen, Ansico. Læs mere på https://www.ansico.dk
