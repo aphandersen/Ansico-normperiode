@@ -25,4 +25,4 @@ GPLv3 licens.
 * 0.1 (29/7-2020): Første version med python3 script.
 * 0.2 (9/8-2020): Anden GUI version med PyQt5. Skal stadig køres fra terminalen. 
 
-Af Andreas Andersen, Ansico. Læs mere på https://www.ansico.dk
+Af Andreas Andersen, Ansico. Følg mig på https://ansico.dk/@aphandersen
